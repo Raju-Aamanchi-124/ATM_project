@@ -1,40 +1,23 @@
-# 🧾 Supermarket Billing System (Python)
+# ATM Simulator (Python)
 
-This is a simple command-line-based **Supermarket Billing System** written in Python. It allows a customer to view available grocery items, purchase multiple products by entering quantities, and generates a neatly formatted bill including tax.
-
----
-
-## 📌 Features
-
-- Customer name input
-- List of available items with prices
-- Allows adding multiple items with quantity
-- Validates item names and quantity input
-- Calculates total price and tax (5%)
-- Generates a detailed final bill
+A simple command-line ATM simulator implemented in Python. This program allows users to perform basic banking operations such as credit (deposit), debit (withdraw), and check balance through an interactive menu.
 
 ---
 
-## 🛒 Available Items & Prices
+## Features
 
-| Item     | Price          |
-|----------|----------------|
-| Rice     | Rs 10/kg       |
-| Sugar    | Rs 8/kg        |
-| Oil      | Rs 30/liter    |
-| Salt     | Rs 25/kg       |
-| Paneer   | Rs 40/kg       |
-| Maggie   | Rs 12/pack     |
-| Boost    | Rs 200/bottle  |
+- Deposit (credit) money to the account with input validation
+- Withdraw (debit) money with checks for sufficient balance
+- Display current account balance
+- User-friendly menu-driven interface
+- Handles invalid inputs gracefully
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-1. Make sure Python is installed on your system.
-2. Clone this repository or download the `.py` file.
-3. Open terminal or command prompt.
-4. Run the script using:
+1. Clone or download this repository.
+2. Run the Python script using the command:
 
 ```bash
-python supermarket_bill.py
+python atm_simulator.py
